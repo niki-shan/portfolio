@@ -1,0 +1,32 @@
+
+.logoImg{
+    height: 60px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.heading{
+     color: rgba(3, 53, 53, 0.527);
+     .duration{
+        color:brown
+     }
+
+}
+
+.role{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+}
+.project{
+    color: rgb(11, 115, 156);
+    font-weight: bold;
+}
+
+.card{
+    box-shadow: 0px 1px 11px -1px #000;
+}
+
+.expLi{
+    font-size: 16px;
+}

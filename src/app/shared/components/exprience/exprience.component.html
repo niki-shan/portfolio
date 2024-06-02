@@ -1,0 +1,29 @@
+
+
+<h2 class="text-center" id="exprience">Work Experience</h2>
+
+<div class="card mb-4" *ngFor="let arr of data">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h3 class=" d-flex justify-content-between heading">
+                     <strong>
+
+                        <img src="https://media.licdn.com/dms/image/D4D0BAQFNW0c9n941fQ/company-logo_200_200/0/1686462408626/adborn_sol_logo?e=2147483647&v=beta&t=5c0xgougtrPxlzMUOpNNaA1Ir57cavirmYbsCrYTSl0" alt="" class="img-fluid logoImg">
+                          {{arr.companyName}}
+                     </strong> 
+                    <div class="mt-2 duration">
+                        <span>{{arr.Duration}},</span><span class="ml-2">{{arr.Address}}</span>
+                    </div> 
+              </h3>
+              <p class="ml-4 role">{{arr.Role}}</p>
+              <p class="ml-4 project">{{arr.project}}</p>
+              <ul style="list-style-type: style circle;">
+                <li class="p-1 expLi"  *ngFor="let info of arr.description">
+                    {{info}}
+                </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+</div>

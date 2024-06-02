@@ -1,0 +1,25 @@
+
+<h2 class="text-center">Education</h2>
+<div class="card mb-3" *ngFor="let info of educationDetails" id="education">
+    <div class="row">
+        <div class="col-md-3 headerSec">
+            <div class="card-body text-center ">
+                 <h4>{{info.degree}}</h4>
+                 <p >{{info.year}}</p>
+                
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card-body bodySec">
+                <ul style="list-style: none;">
+                    <li>{{info.degreeName}}</li>
+                    <li>{{info.Collage}}</li>
+                    <li>{{info.univercity}}</li>
+                    <li>Completed with {{info.percentage}}</li>
+                   
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
