@@ -14,6 +14,11 @@
     z-index: 1030;
     margin-bottom: 20px;
   }
+  .button:hover{
+         color: orangered;
+         background-color: black;
+         border: 0px;
+  }
  
 }
 
@@ -83,7 +88,6 @@
 
 @media (max-width : 600px) {
     .mainnavBar{
-        // height: 20% !important;
         margin-bottom: 10px;
         
         .nav-item .nav-link{

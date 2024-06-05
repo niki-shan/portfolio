@@ -1,10 +1,14 @@
 
 
-.naukari{
+.linkedin{
     height: 100px;
     width: 100px;
 }
-
+.linkedin:hover{
+    animation : imageanimation 3s linear;
+ 
+}
+ 
 
 
 .contact{
@@ -13,4 +17,18 @@
     background-size: cover;
     background-position: center;
    
+}
+
+@keyframes imageanimation{
+    0% {
+        transform: translateY(3px ) scale(.8)
+        
+    }
+    50%{
+        transform:  translate(-3px) scale(1);
+    }
+
+    100%{
+        transform: translate(-3px) scale(1.1);
+    }
 }
